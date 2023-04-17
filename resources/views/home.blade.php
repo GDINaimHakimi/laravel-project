@@ -1,4 +1,6 @@
-<?php include "resources\views\templates\header.php"  ?>
-<h1 class = "card">wsdfw</h1>
-    </body>
-</html>
+@include('includes.header')
+<container class = "container-fluid">
+<h1>wsdfw</h1>
+</container>
+@include('includes.footer')
+  
