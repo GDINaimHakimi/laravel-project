@@ -8,6 +8,27 @@
         
         <!-- CSS -->
         <link href="/bootstrap.min.css" rel="stylesheet">
+        <style>
+           html {
+                    height: 100%;
+                }
+
+            body {
+                    height: 100%;
+                    margin: 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+            main {
+                        flex: 1 0 auto;
+                    }
+
+            footer {
+                    flex-shrink: 0;
+                    }
+
+        </style>
  
     </head>
     <body class="antialiased">
